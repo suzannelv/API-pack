@@ -80,7 +80,7 @@ const movies = [
       "bgImage":"p2_la_ligne_verte"
     },
     {
-      "titre" : "Forrest Gump",
+      // "titre" : "Forrest Gump",
       "realisateur" : " Robert Zemeckis",
       "description" : "Quelques décennies d'histoire américaine, des années 1940 à la fin du XXème siècle, à travers le regard et l'étrange odyssée d'un homme simple et pur, Forrest Gump.",
       "dureeTotale" : 140,
