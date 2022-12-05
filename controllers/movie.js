@@ -24,6 +24,7 @@ exports.getOneMovie = (req, res, next) => {
         return res.status(404).send(new Error('Movie not found!'));
       }
       movie.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + movie.imageUrl;
+      movie.bgImage = req.protocol + '://' + req.get('host') + '/images/' + movie.bgImage;
       res.status(200).json(movie);
     }
   ).catch(
